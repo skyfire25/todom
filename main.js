@@ -7,6 +7,10 @@ console.log(inputValue.value)
 
 addTodoButton.addEventListener('click', printTodo);
 
+function appendLi(){
+    printTodo.removeFromArray()
+}
+
 function removeFromArray(){
 
 }
